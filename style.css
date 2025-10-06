@@ -226,7 +226,7 @@ main{
     top: 104px;
   }
  .section1-bg-img3{
-    top:-240px
+    top:-245px
   }
   .sec1-border, .sec1-border-img {
     width: 100%;                 
@@ -238,6 +238,7 @@ main{
   .sec-2-1 {
     align-items: center;
     text-align: center;
+    margin-bottom: 1.5rem !important;
   }
   .sec-2-1 h2{
     font-size: 48px!important;
@@ -245,7 +246,62 @@ main{
     letter-spacing: -0.0375rem;
   }
   .scroll-container {
+    justify-content: center; 
+    gap: 24px !important;
+    margin-right:0 !important;
+    padding: 0 40px; 
+    max-width: 1000px; 
+  }
+
+  .scroll-container .scroll:nth-child(3) {
+    order: 1;
+  }
+  .scroll-container .scroll:nth-child(1) {
+    order: 2;
+  }
+  .scroll-container .scroll:nth-child(2) {
+    order: 3;
+  }
+  .dot{
     display: none;
+  }
+  .sec3-content{
+    align-items: center;
+  }
+  .sec3-content li{
+    min-width: 231px!important;
+  }
+  .sec3-img{
+    height: 92px !important;
+    width: 231px!important;
+  }
+  .sec-customer{
+    width: 316px !important;
+    height: 127px !important;
+  }
+  .cutomer{
+    display: flex;
+    gap:40px;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 700px;
+  }
+  .cutomer li{
+    max-width: 316px!important;
+  }
+  .cutomer li .sec3-li{
+    width: 316px;
+  }
+   .sec-4 {
+    height: 500px; 
+  }
+  .video-sec {
+    height: 100%;
+  }
+  .video-content {
+    min-height: 0;  
+    height: 100%;
+    justify-content: center; 
   }
 }
 .section2{
@@ -655,7 +711,6 @@ main{
   height: 100%;      
   border-radius: 10px; 
   object-fit: contain;
-
 }
 /*********************************/
 .bg{
