@@ -1754,56 +1754,27 @@ footer{
   .section1-top{
     margin: 0 220px;
   }
-  .section1{
-    min-height: 1208px;
-  }
+  
   .section1-top h1{
     font-size: 89.216px!important;
     line-height: 89.216px!important;
   }
    .section1 .section1-bg-img2{
-    width: 185%;
+    width: 137%;
+    height: 122%;
   }
   .sec1-border img {
-    height: 838px !important;
+    height: 620px !important;
     padding-bottom: 0;
     left: -3px;
   }
   .sec1-border {
-    max-width: 600px;
+    max-width: 470px;
     min-width: 0;
   }
   .sec1-bottom {
     max-height: 945px;
-    margin-top: -123px;
-  }
-  .sec-5{
-    min-height: 1087px!important;
-  }
- .sec-4 .video-content , .sec5-bgimg .video-content1,.sec5-bgimg .video-sec,.sec-6 .video-content {
-  min-height: 1208px!important;
- }
- .sec-6 .Your-money-video video{
-    min-height: 500px;
-    min-width: 1000px;
- }
-  .sec-6 .Your-money-video {
-    min-height: 500px;
-  }
-  .Your-money {
-      min-height: 957px;
-  }
-  .sec-5 .Your-money-video {
-    transform: translateY(-1px);
-  }
-  .Your-money-text,.Your-money-text h2 {
-    transform: translateY(0px);
-  }
-  .sec5-bgimg .image-middle img {
-    min-height: 500px;
-  }
-  .image-middle {
-    margin-top: 125px;
+    margin-top: -200px;
   }
   .sec5-bgimg .video-bg img {
     height: 100%;
